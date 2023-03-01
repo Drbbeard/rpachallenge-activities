@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hGf0bCfVH02WgwiBPiwcXg" Reference="mAsiQ7uDD0SlshCiIDfD4A/AaJFa6Q6okK_g4iuTCQxfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://rpachallenge.com/" ContentHash="EltP-HzhkEKgQNFhenPpoQ" DesignTimeRectangle="1015, 434, 398, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT CC7Tv'" FullSelectorArgument="&lt;webctrl tag='RPA*-FIELD' innertext='First Name' /&gt;&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='RPA*-FIELD' innertext='First Name' /&gt;&lt;webctrl tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' /&gt;" Guid="ee5c1ef4-8317-461a-8a5c-1e1caddd33ff" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAVoAAABDCAYAAADd/82RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEHSURBVHhe7dYxDQAxEASx5w/iqF66KAB+OltaCqP9FoCU0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxATWoCY0ALEhBYgJrQAMaEFiAktQExoAWJCCxC7oZ0ZMzP7aS+PFiAmtACp3QP+m18zmgWTbQAAAABJRU5ErkJggg==" Reference="mAsiQ7uDD0SlshCiIDfD4A/AaJFa6Q6okK_g4iuTCQxfg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="094f5784b39f0a04367538525851e6a8.png" xmlns="">0jWktx48v3kChhokC0mGIPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

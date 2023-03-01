@@ -1,0 +1,15 @@
+﻿{
+  "Id": "xj0EKyTzQ0elTg4qd8o6OA",
+  "Reference": "mAsiQ7uDD0SlshCiIDfD4A/xj0EKyTzQ0elTg4qd8o6OA",
+  "ParentRef": "mAsiQ7uDD0SlshCiIDfD4A/nc2nMTnXnEuk-ka1fyayOQ",
+  "Name": "Input Forms",
+  "Type": "Screen",
+  "Created": "2023-02-10T01:00:51.1441361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-10T01:38:49.8230748Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

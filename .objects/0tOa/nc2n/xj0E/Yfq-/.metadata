@@ -1,0 +1,17 @@
+﻿{
+  "Id": "Yfq-oLdYlEaGUD0-tTCuZw",
+  "Reference": "mAsiQ7uDD0SlshCiIDfD4A/Yfq-oLdYlEaGUD0-tTCuZw",
+  "ParentRef": "mAsiQ7uDD0SlshCiIDfD4A/xj0EKyTzQ0elTg4qd8o6OA",
+  "Name": "Download Excel",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-02-24T07:12:51.7518701Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-26T22:48:56.6194151Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

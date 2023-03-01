@@ -1,0 +1,13 @@
+﻿{
+  "Id": "oosa966Bs0avfM5cuOlhuA",
+  "Reference": "mAsiQ7uDD0SlshCiIDfD4A/oosa966Bs0avfM5cuOlhuA",
+  "ParentRef": "mAsiQ7uDD0SlshCiIDfD4A/xj0EKyTzQ0elTg4qd8o6OA",
+  "Name": "Role In Company",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-02-10T01:31:19.7861576Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-10T01:31:19.7861576Z"
+}

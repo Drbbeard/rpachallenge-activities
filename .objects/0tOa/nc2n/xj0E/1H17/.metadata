@@ -1,0 +1,13 @@
+﻿{
+  "Id": "1H17iFCgkUSnO6m5FoLe4Q",
+  "Reference": "mAsiQ7uDD0SlshCiIDfD4A/1H17iFCgkUSnO6m5FoLe4Q",
+  "ParentRef": "mAsiQ7uDD0SlshCiIDfD4A/xj0EKyTzQ0elTg4qd8o6OA",
+  "Name": "Reset",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2023-02-27T02:26:29.0203513Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-27T02:26:29.0203513Z"
+}
