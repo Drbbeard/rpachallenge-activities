@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.12.0.0",
-  "projectVersion": "1.0.0-alpha.5",
+  "projectVersion": "1.0.0-alpha.6",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -47,6 +47,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test\\InputForms_GetFiles_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bbd23783-d84d-4b56-af68-6580ee227f44",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test\\InputForms_InputActions_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1770c3d4-6b79-496e-95ca-6ecae97903c4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test\\InputForms_Initialize_Test.xaml"
       }
     ],
     "modernBehavior": true

@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="InputForms_GetFiles_Test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1494,1193" sap2010:WorkflowViewState.IdRef="InputForms_GetFiles_Test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="InputForms_InputActions_Test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1494,1193" sap2010:WorkflowViewState.IdRef="InputForms_InputActions_Test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="56">
+    <scg:List x:TypeArguments="x:String" Capacity="44">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -23,22 +23,21 @@
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
       <x:String>System.Runtime.Serialization</x:String>
-      <x:String>UiPath.Testing.Activities</x:String>
-      <x:String>UiPath.Shared.Activities</x:String>
-      <x:String>System.ComponentModel</x:String>
-      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
-      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>UiPath.UIAutomationNext.Activities</x:String>
-      <x:String>System.Activities.DynamicUpdate</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
+    <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -58,20 +57,25 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-    </scg:List>
+    </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="InputForms_GetFiles_Test" sap:VirtualizedContainerService.HintSize="658,1004" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="InputForms_InputActions_Test" sap:VirtualizedContainerService.HintSize="658,1004" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="sd:DataTable" Name="dt_EmployeeInfo" />
       <Variable x:TypeArguments="ui:UiElement" Name="Browser_RPAChallenge" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -99,11 +103,29 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="InputForms_GetFiles.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="338,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="InputForms_GetFiles.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="InputForms_InputActions.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="338,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="InputForms_InputActions.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_EmployeeInfo">
-            <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dt_EmployeeInfo" />
-          </OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_FirstName">
+            <Literal x:TypeArguments="x:String">First Name</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_CompanyName">
+            <Literal x:TypeArguments="x:String">Company Name</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_RoleInCompany">
+            <Literal x:TypeArguments="x:String">Role In Company</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_Address">
+            <Literal x:TypeArguments="x:String">Address</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_Email">
+            <Literal x:TypeArguments="x:String">Email</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_PhoneNumber">
+            <Literal x:TypeArguments="x:String">Phone Number</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LastName">
+            <Literal x:TypeArguments="x:String">Last Name with a space at the end</Literal>
+          </InArgument>
           <InArgument x:TypeArguments="ui:UiElement" x:Key="in_Browser">
             <mva:VisualBasicValue x:TypeArguments="ui:UiElement" ExpressionText="Browser_RPAChallenge" />
           </InArgument>
@@ -116,8 +138,8 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[dt_EmployeeInfo IsNot Nothing]" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="534,152" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser_RPAChallenge]" OpenMode="Never" ScopeGuid="e897c576-8a92-4872-9b67-b941d9902513" Version="V2">
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="534,152" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[Browser_RPAChallenge]" OpenMode="Never" ScopeGuid="a151ce29-0db5-499f-b7e7-4d9399335071" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
