@@ -20,6 +20,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -46,21 +47,28 @@
         "testCaseId": "b4261b69-092f-4d03-b26a-175b079800ba",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test\\InputForms_GetFiles_Test.xaml"
+        "fileName": "Test\\Test_InputForms_GetFileData_DataSaved.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "bbd23783-d84d-4b56-af68-6580ee227f44",
+        "testCaseId": "5fa456c2-0bd6-40fd-b83a-7baa4ccd239d",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test\\InputForms_InputActions_Test.xaml"
+        "fileName": "Test\\Test_InputForms_GetFileData_FailOnNullBrowserInput.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "1770c3d4-6b79-496e-95ca-6ecae97903c4",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test\\InputForms_Initialize_Test.xaml"
+        "fileName": "Test\\Test_InputForms_Initialize_ReturnsBrowserAtInputFormsPage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bbd23783-d84d-4b56-af68-6580ee227f44",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test\\Test_InputForms_SubmitForm_SubmitTestData.xaml"
       }
     ],
     "modernBehavior": true
